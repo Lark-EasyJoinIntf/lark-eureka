@@ -1,0 +1,15 @@
+
+eureka:
+   client:
+      registerWithEureka: false
+      fetchRegistry: false
+   server:
+     max-threads-for-peer-replication: 30
+     enable-self-preservation: false
+
+spring:
+  application:
+    name: lark-eureka
+
+server:
+  port: 8761
