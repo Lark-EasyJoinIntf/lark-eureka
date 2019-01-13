@@ -6,6 +6,7 @@ eureka:
    server:
      max-threads-for-peer-replication: 30
      enable-self-preservation: false
+     waitTimeInMsWhenSyncEmpty: 0
 
 spring:
   application:
